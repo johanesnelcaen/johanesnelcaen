@@ -68,11 +68,11 @@
         thisForm.reset();
 
         // Redirection Formspree si définie
-        if (data.next) {
-          setTimeout(() => {
-            window.location.href = data.next;
-          }, 1000);
-        }
+        // if (data.next) {
+        //   setTimeout(() => {
+        //     window.location.href = data.next;
+        //   }, 1000);
+        // }
 
       } else {
         throw new Error('Form submission failed');
